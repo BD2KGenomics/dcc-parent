@@ -18,18 +18,18 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.icgc.dcc</groupId>
+  <groupId>org.ucsc.cgl.dcc</groupId>
   <artifactId>dcc-parent</artifactId>
   <version>34-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>ICGC DCC Parent POM</name>
+  <name>UCSC CGL DCC Parent POM</name>
   <description>Parent POM for DCC projects. Provides default project build configuration.</description>
-  <url>https://github.com/icgc-dcc/dcc-parent.git</url>
+  <url>https://github.com/BD2KGenomics/dcc-parent.git</url>
 
   <organization>
-    <name>ICGC DCC</name>
-    <url>https://dcc.icgc.org</url>
+    <name>UCSC CGL</name>
+    <url>https:/ucsc-cgl.org</url>
   </organization>
 
   <inceptionYear>2012</inceptionYear>
@@ -41,16 +41,6 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
     <tag>HEAD</tag>
   </scm>
 
-  <issueManagement>
-    <system>jira</system>
-    <url>https://jira.oicr.on.ca/browse/DCC</url>
-  </issueManagement>
-
-  <ciManagement>
-    <system>Jenkins</system>
-    <url>http://dcc-jenkins1.oicr.on.ca:8080/</url>
-  </ciManagement>
-
   <licenses>
     <license>
       <name>GNU Public License v3.0</name>
@@ -58,13 +48,6 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
       <distribution>repo</distribution>
     </license>
   </licenses>
-
-  <developers>
-    <developer>
-      <name>OICR</name>
-      <organization>OICR</organization>
-    </developer>
-  </developers>
 
   <repositories>
     <!-- DCC -->
@@ -1217,7 +1200,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 
   <properties>
     <!-- SCM -->
-    <github.url>scm:git:git@github.com:icgc-dcc/dcc-parent.git</github.url>
+    <github.url>scm:git:git@github.com:BD2KGenomics/dcc-parent.git</github.url>
     <git-commit-id-plugin.version>2.1.9</git-commit-id-plugin.version>
 
     <!-- Encoding -->
